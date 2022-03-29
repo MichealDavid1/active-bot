@@ -6,9 +6,9 @@ browser = webdriver.Chrome()
 browser.get("https://autel-cloud-pc-web-base-prod.autel.com/home/accountLogin?redirectUrl=http%3A%2F%2Fre-us.autel."
             "com%2F&app_code=remoteexpert&fbclid=IwAR0Zmz3XZ3lkXwoqKmhn74FbffnllzDtwNiBxSp2mRVC20nKw1VNKoSjrGw/")
 username = browser.find_element_by_xpath("//input[@type='text']")
-username.send_keys("Sheldon.smith022@gmail.com")
+username.send_keys("")
 password = browser.find_element_by_xpath("//input[@type='password']")
-password.send_keys("Testbot1")
+password.send_keys("")
 login = browser.find_element_by_css_selector(".loginBtn")
 login.click()
 
